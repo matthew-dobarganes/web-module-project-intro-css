@@ -3,52 +3,74 @@
 <html lang="en">
 <head>
 <!-- Link your CSS stylesheet -->
+<title>Web Module Project</title>
 <link rel="stylesheet" href="index.css" />
 </head>
 <body>
       <section class="container">
-        <div class="button1">Plan your Visit
-        </div>
-        <div class="button2">Learn about the Park
-        </div>
-        <div class="button3">Get Involved
-        </div>
+        <nav>
+          <a href="#" class="button1 nav-button">
+            Plan your Visit
+          </a>
+          <a href="#" class="button2 nav-button">
+            Learn about the Park
+          </a>
+          <a href="#" class="button3 nav-button">
+            Get Involved
+          </a>
+        </nav>
       
-      
-      <img id="headerImg" src="assets/header_img.jpg">
-      <section>
-        <header>Yosemite Park Guide
-        </header>
-        <h2>Come explore California’s beautiful wilderness.
+      <div class="inline cta">
+        <img id="headerImg" class="inline cta" src="assets/header_img.jpg">
+        
+        <section class="inline cta-text">
+        <h1>
+          Yosemite Park Guide
+        </h1>
+        <h2>
+          Come explore California’s beautiful wilderness.
         </h2>
-        <h2>Always open. Reservations are not available or required to enter the park.
-        </h2>
+        <h3>
+          Always open. Reservations are not available or required to enter the park.
+        </h3>
       </section>
-      <section>
-        <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra
+      </div>
+      <section class="mainTextBody">
+        <p>
+          Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra
         </p>
       
-        <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+        <p id="p2">
+          First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
         </p>
-      <section>
+      </section>
+
+      <section class="safety-details">
         <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
-        <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
+        <p>
+          Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span class="boldMe">current fire restrictions.</span>
         </p>
       
         <img src="https://image.flaticon.com/icons/svg/820/820374.svg">
-        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
+        <p>
+          We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class="boldMe">park entrance fee</span> upon arrival (there's no need to pay it in advance).
         </p>
       </section>
       
-      <img id="footerImg" src="assets/footer_img.jpg">
+      <div class="mountain-ranges" id="footerImg">
+        <!-- <img id="footerImg" src="assets/footer_img.jpg"> -->
+      </div>
       
       <div class="footerStyle">
-        <div class="button1">Plan your Visit
-        </div>
-        <div class="button2">Learn about the Park
-        </div>
-        <div class="button3">Get Involved
-        </div>
+        <a href="#" class="button1 nav-button a-push">
+          Plan your Visit
+        </a>
+        <a href="#" class="button2 nav-button a-push">
+          Learn about the Park
+        </a>
+        <a href="#" class="button3 nav-button a-push">
+          Get Involved
+        </a>
       </div>
       </section> <!--Page Container Class-->
 </body>
