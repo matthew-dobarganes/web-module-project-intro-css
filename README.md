@@ -2,7 +2,7 @@ Hosted URL: https://github.com/matthew-dobarganes/web-module-project-intro-css/t
 
 Screenshot off project:
 
-https://user-images.githubusercontent.com/75202459/101267415-6d7b1580-3726-11eb-86a7-e85290f5a16f.png
+![image](https://user-images.githubusercontent.com/75202459/101267415-6d7b1580-3726-11eb-86a7-e85290f5a16f.png)
 
 
 # Intro CSS Module Project
